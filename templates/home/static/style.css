@@ -1,0 +1,62 @@
+.body{
+    scroll-behavior: smooth;
+}
+p {
+    font-family: "Quicksand", serif;
+}
+h1 {
+    font-family: "Quicksand", serif;
+    font-size: medium;
+}
+a:link {
+    color: dimgrey;
+}
+a:visited {
+    color: dimgrey;
+}.title {
+
+}
+.main {
+    justify-items: right;
+}
+.header {
+    justify-items: left;
+}
+.section {
+    display: inline-flex;
+    width: 100%;
+}
+.section > *{
+    margin: 1vw;
+}
+.subsection {
+}
+.minion {
+    transition: color 2s ;
+}
+.minion:hover {
+    color: #f5e050;
+}
+.emoji {
+    transition: color 2s ;
+}
+.emoji:hover {
+    color: purple;
+}
+.container {
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    width: 35vw;
+    justify-content: right;
+}
+.date {
+    color: dimgrey;
+}
+@media screen and (max-width: 500px) {
+    .main {
+        position: absolute;
+        left: 100%;
+        top: -13%;
+    }
+}
