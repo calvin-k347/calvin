@@ -1,0 +1,22 @@
+.body{
+    scroll-behavior: smooth;
+}
+p {
+    font-family: "Quicksand", serif;
+}
+h1 {
+    font-family: "Quicksand", serif;
+    font-size: medium;
+}
+a:link {
+    color: dimgrey;
+}
+a:visited {
+    color: dimgrey;
+}.title {
+    justify-self: center;
+    transform: translateY(25%);
+}
+.section {
+    justify-self: center;
+}
